@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "idCategoria": 1,
+    "nombreCategoria": "Animales",
+    "nombre": "Leopardo",
+    "precio": 2500,
+    "stock": 10,
+    "img": "./img/leopardo.jpg"
+  },
+  {
+    "id": 2,
+    "idCategoria": 1,
+    "nombreCategoria": "Animales",
+    "nombre": "Zebra",
+    "precio": 2500,
+    "stock": 20,
+    "img": "./img/zebraok.jpg"
+  },
+  {
+    "id": 3,
+    "idCategoria": 1,
+    "nombreCategoria": "Animales",
+    "nombre": "Chetah",
+    "precio": 3000,
+    "stock": 12,
+    "img": "./img/chetaah.jpg"
+  },
+  {
+    "id": 4,
+    "idCategoria": 2,
+    "nombreCategoria": "Flores",
+    "nombre": "Flower power",
+    "precio": 2700,
+    "stock": 30,
+    "img": "./img/flores.jpg"
+  },
+  {
+    "id": 5,
+    "idCategoria": 2,
+    "nombreCategoria": "Flores",
+    "nombre": "Flower Puff",
+    "precio": 2400,
+    "stock": 5,
+    "img": "./img/flores2.jpg"
+  },
+  {
+    "id": 6,
+    "idCategoria": 2,
+    "nombreCategoria": "Flores",
+    "nombre": "Flores Wow",
+    "precio": 2500,
+    "stock": 20,
+    "img": "./img/flores3.jpg"
+  },
+  {
+    "id": 7,
+    "idCategoria": 3,
+    "nombreCategoria": "Abstracto",
+    "nombre": "Abstract",
+    "precio": 1900,
+    "stock": 10,
+    "img": "./img/abst1.jpg"
+  },
+  {
+    "id": 8,
+    "idCategoria": 3,
+    "nombreCategoria": "Abstracto",
+    "nombre": "Abstract Two",
+    "precio": 1900,
+    "stock": 10,
+    "img": "./img/abst2.jpg"
+  },
+  {
+    "id": 9,
+    "idCategoria": 3,
+    "nombreCategoria": "Abstracto",
+    "nombre": "Abstract Three",
+    "precio": 1800,
+    "stock": 15,
+    "img": "./img/abst3.jpg"
+  }
+]

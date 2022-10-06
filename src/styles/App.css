@@ -1,0 +1,23 @@
+body{
+background-color:#f599e5;
+}
+
+.nav{
+  background-color: rgb(245, 196, 196);
+  color:#ff6ce6c7
+}
+.container{
+width: 430px;
+height: 200 px;
+padding: 10px;
+color:#eb51d1
+}
+
+.button{
+  background-color: palevioletred;
+  color: blueviolet;
+}
+
+.home{
+  background-color: #f599e5;
+}
