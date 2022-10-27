@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import DetalleProducto from "./DetalleProducto";
 import { useParams } from "react-router-dom";
+import { getProducto } from "../../utils/firebase";
 
 const Productos = () => {
     const consultaBase = async (ruta) => {
@@ -11,24 +12,23 @@ const Productos = () => {
   const [data, setData] = useState([]);
   const { id } = useParams();
   useEffect(() => {
-    consultaBase("../json/productos.json").then((productos) => {
-        console.log(productos)
-        const productofind= productos.find(prodarray=>prodarray.id==id)
-        setData(productofind)
-        
-        console.log(productofind);
-      
-    });
+    getProducto(id).then(producto => 
+      setData([producto.id,producto.data()])
+);
   }, []);
 
-  return (
-    <>
-      <div>Soy ItemListContainer</div>
-      <div className="card mb-3" style={{ maxWidth: "540px" }}>
-        <DetalleProducto producto={data} />
-      </div>
-    </>
-  );
+  if(data.length != 0){
+    return (
+      <>
+        
+        <div className="card mb-3" style={{ maxWidth: "540px" }}>
+          <DetalleProducto producto={data} />
+        </div>
+      </>
+    );
+
+  }
+  
 };
 
 export default Productos;

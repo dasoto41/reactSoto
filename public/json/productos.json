@@ -6,7 +6,7 @@
     "nombre": "Leopardo",
     "precio": 2500,
     "stock": 10,
-    "img": "./img/leopardo.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-ds-69072.appspot.com/o/imagenes%2Fleopardo.jpg?alt=media&token=33443d26-dbe3-4a71-b60e-4deda81f5dcb"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "nombre": "Zebra",
     "precio": 2500,
     "stock": 20,
-    "img": "./img/zebraok.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-ds-69072.appspot.com/o/imagenes%2Fzebraok.jpg?alt=media&token=004e50d2-3a81-4faf-812e-dd523bd87f37"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "nombre": "Chetah",
     "precio": 3000,
     "stock": 12,
-    "img": "./img/chetaah.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-ds-69072.appspot.com/o/imagenes%2Fchetaah.jpg?alt=media&token=3a30ae7c-6661-4564-913a-aefbcff6b998"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "nombre": "Flower power",
     "precio": 2700,
     "stock": 30,
-    "img": "./img/flores.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-ds-69072.appspot.com/o/imagenes%2Fflores.jpg?alt=media&token=a95f4066-4f3a-472e-a330-45381981102a"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "nombre": "Flower Puff",
     "precio": 2400,
     "stock": 5,
-    "img": "./img/flores2.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-ds-69072.appspot.com/o/imagenes%2Fflores2.jpg?alt=media&token=66e5f054-b6c5-4654-a9e0-93f53170a981"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "nombre": "Flores Wow",
     "precio": 2500,
     "stock": 20,
-    "img": "./img/flores3.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-ds-69072.appspot.com/o/imagenes%2Fflores3.jpg?alt=media&token=85c125c6-57ca-4dab-8461-9aea342626df"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "nombre": "Abstract",
     "precio": 1900,
     "stock": 10,
-    "img": "./img/abst1.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-ds-69072.appspot.com/o/imagenes%2Fabst1.jpg?alt=media&token=667cc2a6-2dc4-459f-9335-9e102cb4757a"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "nombre": "Abstract Two",
     "precio": 1900,
     "stock": 10,
-    "img": "./img/abst2.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-ds-69072.appspot.com/o/imagenes%2Fabst2.jpg?alt=media&token=ee7fa889-db51-4a91-8334-e7e984ab38d9"
   },
   {
     "id": 9,
@@ -78,6 +78,6 @@
     "nombre": "Abstract Three",
     "precio": 1800,
     "stock": 15,
-    "img": "./img/abst3.jpg"
+    "img": "https://firebasestorage.googleapis.com/v0/b/react-ds-69072.appspot.com/o/imagenes%2Fabst3.jpg?alt=media&token=a019ed16-fe52-43aa-b980-61a959ec1b80"
   }
 ]

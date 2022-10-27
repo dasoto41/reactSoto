@@ -21,8 +21,7 @@ const App = () => {
           <Route path="/conocenos" element={<Conocenos />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/categorias/:id" element={<Categorias />} />
-
-
+          <Route path="*" element={<h1>Error 404: Pagina No Encontrada</h1>}/>
 
         </Routes>
       </BrowserRouter>

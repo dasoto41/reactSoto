@@ -5,17 +5,13 @@ const Secciones = () => {
   return (
     <>
       <li className="nav-item">
-        <Link to= "/conocenos">
+       
       
-        <a className="nav-link active" href="#">Conocenos!
-          <span className="visually-hidden">(current)</span>
-        </a>
-        </Link>
+        <Link className="nav-link active" to="/conocenos">Conocenos! </Link>
       </li>
       <li className="nav-item">
-      <Link to= "/contacto">
-        <a className="nav-link" href="#">Contacto</a>
-        </Link>
+      <Link className="nav-link active" to="/contacto">Contacto </Link>
+      
       </li>
       
       
